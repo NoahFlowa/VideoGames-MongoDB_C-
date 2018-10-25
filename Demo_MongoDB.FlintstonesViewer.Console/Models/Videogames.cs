@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Demo_FileIO_NTier.Models
 {
-    class Videogames
+    public class Videogames
     {
         public enum PlatformType { XBOX, PS4, SWITCH, PC }
         public enum Genre { FPS, MMO, RTS, BUILDER, FIGHTER, FPSMMO  }
